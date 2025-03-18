@@ -8,4 +8,9 @@ def index(request):
         'global/base.html',
     )
 
+def nome(request):
+    return render(
+        request,
+        'seunome.html'
+    )
 # REQUEST - RESPONSE - RENDER
